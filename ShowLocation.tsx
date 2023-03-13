@@ -6,11 +6,11 @@ import {
   View,
   Button,
 } from 'react-native';
-const ShowLocation = ({location}) => {
+const ShowLocation = (location: any) => {
   return (
     <View>
       <Text>SHOW LOCATION</Text>
-      <Text>{location}</Text>
+      
      </View>
   )
 }
